@@ -7,4 +7,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="libtorch-cpu-osx-x64" Version="2.2.1.1" />
+    <PackageReference Include="TorchSharp" Version="0.105.0" />
+  </ItemGroup>
+
 </Project>
